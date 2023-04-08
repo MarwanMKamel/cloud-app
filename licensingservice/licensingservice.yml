@@ -10,6 +10,6 @@ spring.datasource.password: "{cipher}78a3e45c50904d671d77fc225aca19c161088287100
 spring.datasource.testWhileIdle: true
 spring.datasource.validationQuery: SELECT 1
 spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.ddl-auto: update
 encrypt:
   key: ${ENCRYPT_KEY}
